@@ -1,0 +1,76 @@
+@import 'tailwindcss';
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+@font-face {
+  font-family: "Instrument Sans:Bold";
+  src: url("https://static.figma.com/font/InstrumentSans_wdth_wght__1") format("woff2");
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Instrument Sans:Medium";
+  src: url("https://static.figma.com/font/InstrumentSans_wdth_wght__1") format("woff2");
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Instrument Sans:Regular";
+  src: url("https://static.figma.com/font/InstrumentSans_wdth_wght__1") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Instrument Sans:SemiBold";
+  src: url("https://static.figma.com/font/InstrumentSans_wdth_wght__1") format("woff2");
+  font-style: normal;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Outfit:Bold";
+  src: url("https://static.figma.com/font/Outfit_wght__2") format("woff2");
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Outfit:ExtraBold";
+  src: url("https://static.figma.com/font/Outfit_wght__2") format("woff2");
+  font-style: normal;
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "Outfit:Light";
+  src: url("https://static.figma.com/font/Outfit_wght__2") format("woff2");
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Outfit:Medium";
+  src: url("https://static.figma.com/font/Outfit_wght__2") format("woff2");
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Outfit:Regular";
+  src: url("https://static.figma.com/font/Outfit_wght__2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Outfit:SemiBold";
+  src: url("https://static.figma.com/font/Outfit_wght__2") format("woff2");
+  font-style: normal;
+  font-weight: 600;
+}

@@ -1,0 +1,10 @@
+{
+  "description": "Showcases a product and design agency's services with a professional landing page that attracts clients and highlights expertise effectively.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
