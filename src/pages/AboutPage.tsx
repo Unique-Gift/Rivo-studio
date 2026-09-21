@@ -188,9 +188,8 @@ export default function AboutPage({ onNavigate }: Props) {
         </div>
         <div className="flex flex-col gap-[24px] items-start w-full">
           <p
-            aria-hidden
-            className="font-['Outfit:ExtraBold'] font-extrabold text-[#e0dfdb] w-full leading-none select-none text-center text-[54px] lg:text-[120px]"
-            style={{ letterSpacing: '-0.03em' }}
+            className="font-['Outfit:ExtraBold'] font-extrabold text-[#e0dfdb] w-full leading-none select-none text-center whitespace-nowrap"
+            style={{ fontSize: 'clamp(54px, 13vw, 260px)', letterSpacing: '-0.03em' }}
           >
             RIVO STUDIO
           </p>

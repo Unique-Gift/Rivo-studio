@@ -170,7 +170,7 @@ export default function LandingPage({ onNavigate }: Props) {
               </div>
             </div>
           </div>
-          <button onClick={() => onNavigate('casestudy')} className="h-[280px] lg:h-[580px] relative rounded-[4px] flex-1 min-w-0 overflow-hidden block w-full">
+          <button onClick={() => onNavigate('casestudy')} className="h-[280px] lg:h-[580px] relative rounded-[4px] lg:flex-1 lg:min-w-0 overflow-hidden block w-full">
             <img alt="Solitude Writing App" className="absolute inset-0 object-cover size-full rounded-[4px]" src={imgWorkImage01} />
           </button>
         </div>
@@ -179,7 +179,7 @@ export default function LandingPage({ onNavigate }: Props) {
       {/* Work Section 02 */}
       <section className="flex flex-col items-start pb-16 lg:pb-[140px] px-4 sm:px-8 lg:px-[80px] w-full">
         <div className="flex flex-col lg:flex-row gap-[32px] items-start w-full">
-          <div className="h-[280px] lg:h-[580px] relative rounded-[4px] flex-1 min-w-0 overflow-hidden">
+          <div className="h-[280px] lg:h-[580px] relative rounded-[4px] lg:flex-1 lg:min-w-0 overflow-hidden w-full">
             <img alt="Kilo Audio Console" className="absolute inset-0 object-cover size-full rounded-[4px]" src={imgWorkImage02} />
           </div>
           <div className="flex flex-col gap-[24px] items-start pt-[40px] lg:w-[405px] shrink-0">

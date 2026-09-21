@@ -194,7 +194,7 @@ export default function ProductsPage({ onNavigate }: Props) {
           ))}
         </div>
         <div className="flex flex-col gap-[24px] items-start w-full">
-          <p className="font-['Outfit:ExtraBold'] font-extrabold text-[#e0dfdb] w-full leading-none select-none text-center text-[54px] lg:text-[120px]" style={{ letterSpacing: '-0.03em' }}>RIVO STUDIO</p>
+          <p className="font-['Outfit:ExtraBold'] font-extrabold text-[#e0dfdb] w-full leading-none select-none text-center whitespace-nowrap" style={{ fontSize: 'clamp(54px, 13vw, 260px)', letterSpacing: '-0.03em' }}>RIVO STUDIO</p>
           <div className="border-[#e0dfdb] border-solid border-t flex flex-col sm:flex-row font-['Instrument_Sans:Regular'] font-normal items-center justify-center leading-normal pt-3 gap-y-3 gap-x-[24px] text-[#666] text-[12px] w-full">
             <p style={{ fontVariationSettings: '"wdth" 100' }}>© 2025 Rivo Studio. All rights reserved.</p>
             <div className="flex gap-[24px] items-center">
