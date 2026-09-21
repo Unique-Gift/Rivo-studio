@@ -98,7 +98,7 @@ export default function ProductsPage({ onNavigate }: Props) {
 
       {/* Page header */}
       <header className="flex flex-col gap-[48px] items-start px-4 sm:px-8 lg:px-[80px] pt-10 lg:pt-[43px] w-full">
-        <div className="flex flex-col lg:flex-row items-start justify-center gap-[40px] w-full">
+        <div className="flex flex-col lg:flex-row items-start justify-between gap-[40px] w-full">
           <p className="font-['Outfit:Medium'] font-medium leading-[1.15] text-[#111] text-[clamp(36px,5vw,80px)] max-w-[700px]">
             Work that ships.<br />
             <span className="font-['Outfit:Light'] font-light">Products that scale.</span>

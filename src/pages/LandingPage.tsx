@@ -83,25 +83,7 @@ export default function LandingPage({ onNavigate }: Props) {
       >
         {/* Sticky nav inside hero so dark bg covers it */}
         <Nav onNavigate={onNavigate} theme="dark" />
-        {/* Floating images — behind text */}
-        <div className="absolute inset-0 pointer-events-none select-none" aria-hidden>
-          {/* Top right — portrait (Appointment Request) */}
-          <div className="absolute top-[4%] right-[4%] w-[44%] lg:w-[22%] aspect-[3/4] overflow-hidden rounded-[3px] shadow-2xl">
-            <img src={imgHeroAppointment} alt="" className="object-cover size-full" />
-          </div>
-          {/* Left middle — landscape (MachiCare Dashboard) */}
-          <div className="absolute top-[22%] left-[2%] w-[38%] lg:w-[18%] aspect-[4/3] overflow-hidden rounded-[3px] shadow-2xl">
-            <img src={imgHeroDashboard} alt="" className="object-cover size-full" />
-          </div>
-          {/* Bottom left — square (MoniRef Landing) */}
-          <div className="absolute bottom-[16%] left-[13%] w-[32%] lg:w-[16%] aspect-square overflow-hidden rounded-[3px] shadow-2xl">
-            <img src={imgHeroMoniref} alt="" className="object-cover size-full" />
-          </div>
-          {/* Bottom right — wide (KoretFilm Dashboard) */}
-          <div className="absolute bottom-[12%] right-[3%] w-[46%] lg:w-[24%] aspect-video overflow-hidden rounded-[3px] shadow-2xl">
-            <img src={imgHeroKoretfilm} alt="" className="object-cover size-full" style={{ transform: `translateY(${hero.offset * 0.5}px)`, willChange: 'transform' }} />
-          </div>
-        </div>
+
 
         {/* Headline — fills the full width */}
         <div className="flex flex-col items-center justify-center flex-1 px-[4vw] pt-[6vh] pb-[2vh] relative z-10 pointer-events-none select-none">

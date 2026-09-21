@@ -37,7 +37,7 @@ export default function Nav({ onNavigate, theme, activePage }: NavProps) {
           href="#contact"
           className={`hidden lg:block transition-colors px-[20px] py-[10px] rounded-[2px] ${isDark ? 'bg-white/10 hover:bg-white/20 border border-white/20' : 'bg-[#111] hover:bg-[#c5593b]'}`}
         >
-          <span className="font-['Instrument_Sans:SemiBold'] font-semibold leading-normal text-white text-[12px]" style={{ fontVariationSettings: '"wdth" 100' }}>Start a Project</span>
+          <span className="font-['Instrument_Sans:SemiBold'] font-semibold leading-normal text-white text-[12px]" style={{ fontVariationSettings: '"wdth" 100' }}>Start a Chat</span>
         </a>
         <button
           className={`lg:hidden p-2 -mr-1 ${isDark ? 'text-white' : 'text-[#111]'}`}
@@ -45,9 +45,9 @@ export default function Nav({ onNavigate, theme, activePage }: NavProps) {
           aria-label={open ? 'Close menu' : 'Open menu'}
         >
           {open ? (
-            <svg width="22" height="22" viewBox="0 0 22 22" fill="none"><path d="M5 5L17 17M17 5L5 17" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/></svg>
+            <svg width="22" height="22" viewBox="0 0 22 22" fill="none"><path d="M5 5L17 17M17 5L5 17" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" /></svg>
           ) : (
-            <svg width="22" height="22" viewBox="0 0 22 22" fill="none"><path d="M3 7h16M3 11h16M3 15h16" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/></svg>
+            <svg width="22" height="22" viewBox="0 0 22 22" fill="none"><path d="M3 7h16M3 11h16M3 15h16" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" /></svg>
           )}
         </button>
       </div>
