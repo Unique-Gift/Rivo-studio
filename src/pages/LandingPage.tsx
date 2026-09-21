@@ -78,8 +78,7 @@ export default function LandingPage({ onNavigate }: Props) {
       {/* Hero + Nav unified dark section */}
       <section
         ref={hero.ref as React.RefObject<HTMLElement>}
-        className="relative bg-[#111] flex flex-col w-full overflow-hidden"
-        style={{ minHeight: '100vh' }}
+        className="relative bg-[#111] flex flex-col w-full overflow-hidden min-h-[70vh] lg:min-h-screen"
       >
         {/* Sticky nav inside hero so dark bg covers it */}
         <Nav onNavigate={onNavigate} theme="dark" />
@@ -284,8 +283,8 @@ export default function LandingPage({ onNavigate }: Props) {
         <div className="flex flex-col gap-[24px] items-start w-full">
           <p
             aria-hidden
-            className="font-['Outfit:ExtraBold'] font-extrabold text-[#e0dfdb] w-full leading-none select-none text-center text-[54px] lg:text-[120px]"
-            style={{ letterSpacing: '-0.03em' }}
+            className="font-['Outfit:ExtraBold'] font-extrabold text-[#e0dfdb] w-full leading-none select-none text-center whitespace-nowrap"
+            style={{ fontSize: 'clamp(54px, 13vw, 260px)', letterSpacing: '-0.03em' }}
           >
             RIVO STUDIO
           </p>
