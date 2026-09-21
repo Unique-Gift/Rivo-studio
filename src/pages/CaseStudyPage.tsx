@@ -20,7 +20,7 @@ export default function CaseStudyPage({ onNavigate }: Props) {
       <Nav onNavigate={onNavigate} theme="dark" activePage="casestudy" />
 
       {/* Hero */}
-      <section className="relative flex flex-col min-h-[600px] md:min-h-[880px] items-start justify-between pb-12 pt-24 md:pb-[80px] md:pt-[120px] px-6 md:px-[80px] w-full">
+      <section className="relative flex flex-col min-h-[400px] md:min-h-[880px] items-start justify-between pb-12 pt-24 md:pb-[80px] md:pt-[120px] px-6 md:px-[80px] w-full">
         <div aria-hidden className="absolute inset-0 pointer-events-none">
           <img alt="" className="absolute object-cover size-full" src={imgHero} />
           <div className="absolute bg-[rgba(17,17,17,0.45)] inset-0" />

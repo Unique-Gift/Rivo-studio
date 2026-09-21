@@ -95,7 +95,7 @@ export default function ProcessPage({ onNavigate }: Props) {
       </nav>
 
       {/* Hero */}
-      <section ref={hero.ref as React.RefObject<HTMLElement>} className="relative flex flex-col min-h-[800px] items-start justify-between pb-[80px] pt-[120px] px-[80px] w-full overflow-hidden">
+      <section ref={hero.ref as React.RefObject<HTMLElement>} className="relative flex flex-col min-h-[400px] lg:min-h-[800px] items-start justify-between pb-12 pt-24 lg:pb-[80px] lg:pt-[120px] px-6 lg:px-[80px] w-full overflow-hidden">
         <div aria-hidden className="absolute inset-0 pointer-events-none">
           <img alt="" className="absolute object-cover size-full" src={imgHero} style={{ transform: `translateY(${hero.offset}px)`, willChange: 'transform' }} />
           <div className="absolute bg-[rgba(17,17,17,0.35)] inset-0" />
