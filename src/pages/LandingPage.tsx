@@ -55,6 +55,12 @@ const imgWorkImage01 = `${assetPathPrefix}/60696.png`;
 const imgWorkImage02 = `${assetPathPrefix}/509bd.png`;
 const imgRectangle = `${assetPathPrefix}/5182d.png`;
 const imgRectangle1 = `${assetPathPrefix}/e8826.png`;
+
+// Hero floating images
+const imgHeroAppointment = `${assetPathPrefix}/hero_appointment.png`;
+const imgHeroDashboard = `${assetPathPrefix}/hero_machicare.png`;
+const imgHeroMoniref = `${assetPathPrefix}/hero_moniref.png`;
+const imgHeroKoretfilm = `${assetPathPrefix}/hero_koretfilm.png`;
 const imgEllipse = `${assetPathPrefix}/5c779.svg`;
 const imgPlay = `${assetPathPrefix}/399bb.svg`;
 const imgArrowUpRight = `${assetPathPrefix}/43698.svg`;
@@ -79,21 +85,21 @@ export default function LandingPage({ onNavigate }: Props) {
         <Nav onNavigate={onNavigate} theme="dark" />
         {/* Floating images — behind text */}
         <div className="absolute inset-0 pointer-events-none select-none" aria-hidden>
-          {/* Top right — portrait */}
+          {/* Top right — portrait (Appointment Request) */}
           <div className="absolute top-[4%] right-[4%] w-[44%] lg:w-[22%] aspect-[3/4] overflow-hidden rounded-[3px] shadow-2xl">
-            <img src={imgWorkImage01} alt="" className="object-cover size-full" />
+            <img src={imgHeroAppointment} alt="" className="object-cover size-full" />
           </div>
-          {/* Left middle — landscape */}
+          {/* Left middle — landscape (MachiCare Dashboard) */}
           <div className="absolute top-[22%] left-[2%] w-[38%] lg:w-[18%] aspect-[4/3] overflow-hidden rounded-[3px] shadow-2xl">
-            <img src={imgRectangle} alt="" className="object-cover size-full" />
+            <img src={imgHeroDashboard} alt="" className="object-cover size-full" />
           </div>
-          {/* Bottom left — square */}
+          {/* Bottom left — square (MoniRef Landing) */}
           <div className="absolute bottom-[16%] left-[13%] w-[32%] lg:w-[16%] aspect-square overflow-hidden rounded-[3px] shadow-2xl">
-            <img src={imgWorkImage02} alt="" className="object-cover size-full" />
+            <img src={imgHeroMoniref} alt="" className="object-cover size-full" />
           </div>
-          {/* Bottom right — wide */}
+          {/* Bottom right — wide (KoretFilm Dashboard) */}
           <div className="absolute bottom-[12%] right-[3%] w-[46%] lg:w-[24%] aspect-video overflow-hidden rounded-[3px] shadow-2xl">
-            <img src={imgHero} alt="" className="object-cover size-full" style={{ transform: `translateY(${hero.offset * 0.5}px)`, willChange: 'transform' }} />
+            <img src={imgHeroKoretfilm} alt="" className="object-cover size-full" style={{ transform: `translateY(${hero.offset * 0.5}px)`, willChange: 'transform' }} />
           </div>
         </div>
 
