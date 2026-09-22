@@ -26,7 +26,7 @@ export default function CaseStudyPage({ onNavigate }: Props) {
           <div className="absolute bg-[rgba(17,17,17,0.45)] inset-0" />
         </div>
         <div className="flex flex-col gap-[24px] items-start relative w-full">
-          <span className="font-['Instrument_Sans:Bold'] font-bold leading-normal text-[#c5593b] text-[14px] uppercase" style={{ fontVariationSettings: '"wdth" 100' }}>LUMINARY HEALTH</span>
+          <span className="font-['Instrument_Sans:Bold'] font-bold leading-normal text-[#c5593b] text-[14px] uppercase" style={{ fontVariationSettings: '"wdth" 100' }}>MachiCare</span>
           <p className="font-['Outfit:ExtraBold'] font-extrabold text-white text-[clamp(32px,6vw,100px)]" style={{ lineHeight: '0.88' }}>
             REDESIGNING <span className="font-['Outfit:Light'] font-light">HEALTH TECH.</span>
           </p>

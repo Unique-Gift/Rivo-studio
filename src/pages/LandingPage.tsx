@@ -154,19 +154,19 @@ export default function LandingPage({ onNavigate }: Props) {
               </div>
             </div>
             <div className="flex flex-col gap-[12px] items-start w-full">
-              <p className="font-['Outfit:Bold'] font-bold leading-normal text-[#111] text-[36px] w-full">Solitude Writing App</p>
+              <p className="font-['Outfit:Bold'] font-bold leading-normal text-[#111] text-[36px] w-full">MachiCare EHMS</p>
               <p className="font-['Instrument_Sans:Regular'] font-normal leading-[1.6] text-[#666] text-[15px] w-full" style={{ fontVariationSettings: '"wdth" 100' }}>
-                A focused writing experience rebuilt from discovery to launch through product strategy, UX/UI design, and a reusable design system.
+                A complex clinical operating platform designed for medium-to-large-scale hospitals.
               </p>
             </div>
             <div className="border-[#e0dfdb] border-solid border-t flex flex-col gap-[12px] items-start pt-[20px] w-full text-[13px] leading-normal">
               <div className="flex items-start justify-between w-full">
                 <span className="font-['Instrument_Sans:Regular'] font-normal text-[#666]" style={{ fontVariationSettings: '"wdth" 100' }}>Client</span>
-                <span className="font-['Instrument_Sans:SemiBold'] font-semibold text-[#111]" style={{ fontVariationSettings: '"wdth" 100' }}>Oasis Writing</span>
+                <span className="font-['Instrument_Sans:SemiBold'] font-semibold text-[#111]" style={{ fontVariationSettings: '"wdth" 100' }}>MachiTech</span>
               </div>
               <div className="flex items-start justify-between w-full">
                 <span className="font-['Instrument_Sans:Regular'] font-normal text-[#666]" style={{ fontVariationSettings: '"wdth" 100' }}>Scope</span>
-                <span className="font-['Instrument_Sans:SemiBold'] font-semibold text-[#111]" style={{ fontVariationSettings: '"wdth" 100' }}>Strategy, UX/UI, Design System</span>
+                <span className="font-['Instrument_Sans:SemiBold'] font-semibold text-[#111]" style={{ fontVariationSettings: '"wdth" 100' }}>Product design, Design System, Prototyping</span>
               </div>
             </div>
           </div>
@@ -267,7 +267,7 @@ export default function LandingPage({ onNavigate }: Props) {
           <div className="flex flex-col gap-[16px] items-start w-full sm:w-[320px]">
             <img src="/assets/rivo_logo_nobg.svg" alt="Rivo Studio" className="h-[56px] w-[56px] object-contain" />
             <p className="font-['Instrument_Sans:Regular'] font-normal leading-[1.5] text-[#666] text-[13px]" style={{ fontVariationSettings: '"wdth" 100' }}>
-              An independent product design and product management studio helping companies build better digital products. Based in Brooklyn and London.
+              A product design and product management studio helping companies build better digital products.
             </p>
           </div>
           {[
