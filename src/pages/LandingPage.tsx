@@ -107,7 +107,7 @@ export default function LandingPage({ onNavigate }: Props) {
             className="font-['Instrument_Sans:Regular'] font-normal text-white/50 text-[13px] text-center max-w-[420px] leading-[1.5]"
             style={{ fontVariationSettings: '"wdth" 100' }}
           >
-            We help ambitious companies build better digital products through strategy, design, and systems that scale.
+            We help ambitious companies build scalable digital products through strategy, design, and systems that are user-focused.
           </p>
         </div>
       </section>
