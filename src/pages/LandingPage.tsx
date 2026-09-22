@@ -147,10 +147,10 @@ export default function LandingPage({ onNavigate }: Props) {
           <div className="flex flex-col gap-[24px] items-start pt-[40px] lg:w-[405px] shrink-0">
             <div className="flex gap-[8px] items-start flex-wrap">
               <div className="bg-white border border-[#e0dfdb] border-solid flex items-start px-[10px] py-[4px] rounded-[2px]">
-                <span className="font-['Instrument_Sans:Medium'] font-medium leading-normal text-[#111] text-[11px] uppercase" style={{ fontVariationSettings: '"wdth" 100' }}>Product Strategy</span>
+                <span className="font-['Instrument_Sans:Medium'] font-medium leading-normal text-[#111] text-[11px] uppercase" style={{ fontVariationSettings: '"wdth" 100' }}>Product Design</span>
               </div>
               <div className="bg-white border border-[#e0dfdb] border-solid flex items-start px-[10px] py-[4px] rounded-[2px]">
-                <span className="font-['Instrument_Sans:Medium'] font-medium leading-normal text-[#111] text-[11px] uppercase" style={{ fontVariationSettings: '"wdth" 100' }}>UX/UI Design</span>
+                <span className="font-['Instrument_Sans:Medium'] font-medium leading-normal text-[#111] text-[11px] uppercase" style={{ fontVariationSettings: '"wdth" 100' }}>User Experience</span>
               </div>
             </div>
             <div className="flex flex-col gap-[12px] items-start w-full">
